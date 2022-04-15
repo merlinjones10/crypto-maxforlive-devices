@@ -1,5 +1,5 @@
 # crypto-maxforlive-devices
-
+Attempting to make crypto-currency musical...
 This project contains NodeForMax JS code aswell as MaxForLive devices:
  
 ## Overview
