@@ -44,8 +44,7 @@ Max.addHandler('get', (coin,days) => {
 //     })
 //     .then(function () {});
 // };
-
-///
+//
 // nodeTester()
 
 
