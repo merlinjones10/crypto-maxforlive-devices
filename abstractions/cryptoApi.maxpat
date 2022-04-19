@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -190,16 +190,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 227.933314323425293, 15.000001341104507, 43.599998414516449, 24.000000774860382 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : "themecolor.maxwindow_errorbackground"
+						}
+,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.maxwindow_successtext"
 						}
 ,
 						"activetextcolor" : 						{
 							"expression" : "themecolor.maxwindow_errortext"
-						}
-,
-						"activebgcolor" : 						{
-							"expression" : "themecolor.maxwindow_errorbackground"
 						}
 ,
 						"bgcolor" : 						{
@@ -486,7 +486,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1046,14 +1046,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.833334684371948, 538.666671752929688, 209.0, 22.0 ],
+					"patching_rect" : [ 173.833334684371948, 538.666671752929688, 222.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
-					"text" : "node.script cryptoDevice.js @watch 1"
+					"text" : "node.script cryptoDevice1d.js @watch 1"
 				}
 
 			}
@@ -1349,7 +1351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 373.333334684371948, 647.666671752929688, 159.333334684371948, 647.666671752929688, 159.333334684371948, 761.666671752929688, 171.833334684371948, 761.666671752929688 ],
+					"midpoints" : [ 386.333334684371948, 647.666671752929688, 159.333334684371948, 647.666671752929688, 159.333334684371948, 761.666671752929688, 171.833334684371948, 761.666671752929688 ],
 					"order" : 1,
 					"source" : [ "obj-8", 1 ]
 				}
@@ -1358,7 +1360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 373.333334684371948, 656.666671752929688, 371.833334684371948, 656.666671752929688 ],
+					"midpoints" : [ 386.333334684371948, 656.666671752929688, 371.833334684371948, 656.666671752929688 ],
 					"order" : 0,
 					"source" : [ "obj-8", 1 ]
 				}
@@ -1414,9 +1416,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "cryptoDevice.js",
-				"bootpath" : "~/Documents/Max 8/Node Content",
-				"patcherrelativepath" : "../../../Documents/Max 8/Node Content",
+				"name" : "cryptoDevice1d.js",
+				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MAX/Node Content",
+				"patcherrelativepath" : "../../../../MAX/Node Content",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1428,12 +1436,6 @@
 			}
 , 			{
 				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
